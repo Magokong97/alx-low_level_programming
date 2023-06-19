@@ -10,9 +10,13 @@
 int main(void)
 {
 	int dec;
+	char a;
 
-	for ( dec = '0'; dec <= '9'; dec++)
+	for (dec = '0'; dec <= '9'; dec++)
 		putchar(dec);
+
+	for (a = 'a'; a <= 'f'; a++)
+		putchar(a);
 	putchar('\n');
 
 	return (0);
