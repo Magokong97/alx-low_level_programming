@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - a program that prints the alphabet in lowercase, followed by a new line
+ * main - a program that prints the alphabet in lowercase
  * description - Print all the letters except q and e
  * Return: Always 0 (Success)
+ *
  */
+
 int main(void)
 {
 	int low, e, q;
