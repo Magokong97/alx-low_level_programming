@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - a program that prints all single digit numbers of base 10 starting from 0
+ * main - a program that prints all single digit numbers of base 10
  * description - followed by a new line.
  *
  */
+
 int main(void)
 {
 	int i;
