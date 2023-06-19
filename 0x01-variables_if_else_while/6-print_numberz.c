@@ -1,19 +1,20 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - a program that prints all single digit numbers of base 10
- * description - followed by a new line.
  * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
 {
-	int i;
+	int a;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-	printf("\n");
+	for (a ='0', a <= '9'; a++)
+		putchar(a);
+	putchar('\n');
 
 	return (0);
 }
