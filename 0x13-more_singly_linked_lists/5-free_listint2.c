@@ -4,6 +4,7 @@
  * free_listint2 - frees a linked list
  * @head: pointer to the listint_t list to be freed
  * @next: points to the next node
+ *
  * Description: singly linked list node structure
  */
 void free_listint2(listint_t **head)
