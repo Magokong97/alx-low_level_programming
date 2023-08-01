@@ -5,6 +5,8 @@
  * @head: pointer to the first element in the list
  * @n: data to insert in the new elements
  * Description: singly linked list node structure
+ *
+ * Return: pointer to the new node, or NULL if it fails
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
@@ -13,7 +15,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	new = malloc(sizeof(listint_t));
 	if (!new)
-		return (NULL); /*** Pointer to nmew node or return NULL if it fails ***/
+		return (NULL);
 
 	new->n = n;
 	new->next = NULL;
